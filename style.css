@@ -75,6 +75,7 @@ body{
     margin-top: 100px;
     display: flex;
 }
+
 .container .body-part .menu-bar .hhh{
   text-align: center;
   padding-top: 20px;
@@ -121,6 +122,19 @@ body{
     column-gap: 5px;
    
 }
+@media screen  and (max-width: 576px) {
+    .contents{
+      grid-template-columns:repeat(1,1fr);
+    }
+    
+}
+@media screen and (min-width:577px)  and(max-width:992) {
+    .contents{
+        grid-template-columns:repeat(2,1fr);
+      }
+    
+}
+
 .content-bar .contents{
     height: 400px;
     width: 300px;
@@ -128,6 +142,7 @@ body{
     border-radius: 10px;
     
 }
+
 .content-bar .contents .content1{
     height: 200px;
     width: 300px; 
