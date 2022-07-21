@@ -1,12 +1,75 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
-    margin: 0 auto;
 }
 .container{
     height: 1600px;
     width: 100%;
-    background-color: brown;
+   
+}
+.container .header-part{
+    height: 600px;
+    width: 70%;
+    margin: 50px 200px;
+    display: flex;
+}
+.content-part{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+}
+.content-part .heading{
+    font-size: 50px;
+    font-weight: 50px;
+    color: white; 
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.content-part .cp{
+    font-size: 15px;
+    font-weight: 20px;
+    color: white; 
+    margin-left: 80px;
+    
+
+}
+.content-part a button{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    font-size: 25px;
+    margin-left: 80px;
+   border-radius: 10px;
+    color: white;
+
+    
+}
+
+.content-part .fa-angle-right{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+   
+}
+.img-part{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.img-part img{
+    height: 600px;;
+    width: 500px;
+   
+}
+.container .body-part{
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(189, 189, 221);
 }
 footer{
     height: 500px;
