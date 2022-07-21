@@ -74,8 +74,12 @@ body{
     margin-top: 100px;
     display: flex;
 }
+.container .body-part .menu-bar .hhh{
+  text-align: center;
+  padding-top: 20px;
+}
 .container .body-part .menu-bar{
-    height: 400px;
+    height: 330px;
     width: 25%;
     background-color: black;
    margin-top: 20px;
@@ -83,7 +87,28 @@ body{
     border-radius: 20px;
    
 }
-
+.container .body-part .menu-bar .upcoming-match{
+    height: 70px;
+    width: 80%;
+    background-color: rgb(252, 248, 248); 
+    border-radius: 10px;
+    margin: 35px;
+}
+.container .body-part .menu-bar .all-group{
+    height: 70px;
+    width: 80%;
+    background-color: hwb(0 96% 2%);
+    border-radius: 10px;
+    margin: 35px;
+     
+}
+.container .body-part .menu-bar .blog{
+    height: 70px;
+    width: 80%;
+    background-color: rgb(229, 46, 46); 
+    border-radius: 10px;
+    margin: 35px;
+}
 .content-bar{
     height: 1600px;
     width: 65%;
@@ -133,11 +158,13 @@ body{
     height: 53px;
     width: 300px; 
    
+   
 
 }
 .content-bar .contents .content4 p{
     display: inline-block;
-   padding: 10px;
+   padding-bottom: 20px;
+   padding-left: 30px;
 }
 footer{
     height: 500px;
